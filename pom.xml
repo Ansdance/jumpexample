@@ -785,8 +785,8 @@
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testdev</profile.test>
                 <liquibase-plugin.url>jdbc:postgresql://localhost:5432/jumpexample</liquibase-plugin.url>
-                <liquibase-plugin.username>jumpexample</liquibase-plugin.username>
-                <liquibase-plugin.password/>
+                <liquibase-plugin.username>jump</liquibase-plugin.username>
+                <liquibase-plugin.password>password</liquibase-plugin.password>
             </properties>
             <dependencies>
                 <dependency>
@@ -893,8 +893,8 @@
                 <spring.profiles.active>prod${profile.api-docs}${profile.tls}${profile.e2e}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testprod</profile.test>
                 <liquibase-plugin.url>jdbc:postgresql://localhost:5432/jumpexample</liquibase-plugin.url>
-                <liquibase-plugin.username>jumpexample</liquibase-plugin.username>
-                <liquibase-plugin.password/>
+                <liquibase-plugin.username>jump</liquibase-plugin.username>
+                <liquibase-plugin.password>password</liquibase-plugin.password>
             </properties>
             <build>
                 <plugins>
