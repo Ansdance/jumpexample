@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = kz.jumpcompany.\
+    jumpapp.config.SqlTestContainersSpringContextCustomizerFactory
